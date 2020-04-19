@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+}
+.header{
+    background-color: #4c5b9e;
+    width: 850px;
+    height: 404px;
+    position: relative;
+    margin: auto;
+}
+nav{
+    
+    background-color:white; 
+    width: 850px;
+    height: 60px;
+    position: relative;
+    top: 161px;
+    text-align: center;
+    border: 1px lightgray solid;
+    
+
+}
+nav a{
+    color: rgb(54, 54, 54);
+    font-size: 14.5px;
+    font-family: sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 18px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+.more{
+    position: relative;
+    left: -38px;
+}
+.fwb{
+    position: relative;
+    left: -33px;
+    padding-right: 18px;
+    border-left: lightgray 1px solid;
+    border-right: lightgray 1px solid;
+}
+.welcome{
+    position: relative;
+    left: -28px;
+    padding-right: 18px;
+    border-left: lightgray 1px solid;
+}
+.about{
+    position: relative;
+    left: -23px;
+    padding-right: 18px;
+}
+.timeline{
+    position: relative;
+    left: -18px;
+    padding-right: 18px;
+}
+.profile-pic{
+    background-color: #4c5b9e;
+    border: 1px 	rgb(49, 60, 109) solid;
+    height: 183px;
+    width: 183px;
+    position: relative;
+    top: 200px;
+    left: 15px;
+    z-index: 3;
+}
+.name-website{
+    height: 80px;
+    width: 200px;
+    position: relative;
+    top: -20px;
+    left: 214px;
+}
+.name-website p{
+    font-family: sans-serif;
+    color: white;
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 16px;
+}
+.website{
+    font-size: 14px;
+    position: relative;
+    top: 6px;
+}
+.icon-bar{
+    width: 260px;
+    position: relative;
+    left: 589px;
+    top: 68px;
+}
+.icon-bar button{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:#474958;
+    height: 22px;
+    vertical-align: top;
+}
+.message{
+    position: relative;
+    left: 5px;
+}
+button.follow{
+    position: relative;
+    left: 10px;
+    color: rgb(167, 167, 167);
+}
+.like{
+    position: relative;
+    left: 5px;
+}
+.body{
+    width: 850px;
+    height: 940px;
+    margin: auto;
+}
+.column1{
+    width: 328px;
+    height: 940px;
+    margin-right: auto;
+}
+.column1 div{
+    border:1px lightgray solid ;
+    margin-top: 10px;
+}
+.pg-info{
+    height: 160px;
+    font-size: 14.5px;
+    font-family: sans-serif;
+}
+.pg-info .lorem-ipsum{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-left: none;
+    border-right: none;
+    
+}
+.lorem-ipsum .about-title{
+    margin: 10px;
+    border: none;
+    font-weight: bold;
+}
+.lorem-ipsum p{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #4c5b9e;
+}
+.pg-info .site{
+    margin: 10px;
+    font-weight: bold;
+    border: none;
+    color: #4c5b9e ;
+}
+.about-you{
+    height: 130px;
+    
+}
+.apps{
+    height: 260px;
+}
+.photos{
+    height: 330px;
+}
+.column1 .footer{
+    height: 28px;
+    margin-top: 0px;
+    font-size: 13px;
+    padding: 5px;
+   text-align: left;
+   color: rgb(145, 145, 145);
+   font-family: sans-serif;
+   border: none;
+}
+.column2{
+    position: relative;
+    top: -940px;
+    width: 512px;
+    height: 940px;
+    margin-left: auto;
+}
+.column2 div{
+    border: 1px lightgray solid;
+    margin-top: 10px;
+}
+.column2 .status1{
+    height: 280px;
+    margin-top: 0px;
+    font-family: sans-serif;
+}
+.profile-pic1{
+    height: 43px;
+    width: 43px;
+    background-color: #4c5b9e;
+    margin: 10px;
+}
+.status1 .update-details{
+    position: relative;
+    left: 52px;
+    top: -48px;
+    width: 265px;
+    font-size: 13px;
+    margin: 10px;
+    color: rgb(167, 167, 167);
+    border: none;
+}
+.span1{
+    color: #4c5b9e;
+    font-weight: bold;
+}
+.span3{
+    color: #4c5b9e;
+}
+.status1 .updated-cover{
+    position: relative;
+    top: -45px;
+    height: 175px;
+    background-color: #4c5b9e;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: none;
+}
+.status1 .options{
+    position: relative;
+    top: -51px;
+    color: #4c5b9e;
+    font-size: 13.5px;
+    padding: 10px;
+    border: none;
+    border-top: 1px lightgray solid;
+    background-color: rgb(243, 243, 243) ;
+    
+    
+}
+
+
+.status2{
+    height: 140px;
+}
+.status3{
+    height: 335px;
+}
+.status4{
+    height: 140px;
+}
